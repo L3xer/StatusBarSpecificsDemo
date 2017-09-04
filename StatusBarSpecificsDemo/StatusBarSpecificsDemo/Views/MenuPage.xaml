@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+                  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                  xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+                  prism:ViewModelLocator.AutowireViewModel="True"
+                  x:Class="StatusBarSpecificsDemo.Views.MenuPage">
+    
+    <MasterDetailPage.Master>
+        <ContentPage Title="Menu" BackgroundColor="#FFFFFF">
+            <StackLayout VerticalOptions="FillAndExpand" Padding="0,20,0,0" Spacing="0">
+                <Button Text="View A" />
+                <Button Text="View B" />
+            </StackLayout>
+        </ContentPage>
+    </MasterDetailPage.Master>
+</MasterDetailPage>

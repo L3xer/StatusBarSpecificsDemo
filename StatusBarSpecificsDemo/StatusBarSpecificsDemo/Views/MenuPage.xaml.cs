@@ -2,9 +2,9 @@
 
 namespace StatusBarSpecificsDemo.Views
 {
-    public partial class MainPage : ContentPage
+    public partial class MenuPage : MasterDetailPage
     {
-        public MainPage()
+        public MenuPage()
         {
             InitializeComponent();
         }
