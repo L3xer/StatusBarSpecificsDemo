@@ -4,8 +4,8 @@
              xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
              prism:ViewModelLocator.AutowireViewModel="True"
              x:Class="StatusBarSpecificsDemo.Views.MainPage"
-             Title="MainPage">
+             Title="Main Page">
   <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
-    <Label Text="{Binding Title}" />
+    <Label Text="Platform specifics" />
   </StackLayout>
 </ContentPage>
