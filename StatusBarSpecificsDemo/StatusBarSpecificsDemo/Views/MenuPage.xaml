@@ -8,8 +8,8 @@
     <MasterDetailPage.Master>
         <ContentPage Title="Menu" BackgroundColor="#FFFFFF">
             <StackLayout VerticalOptions="FillAndExpand" Padding="0,20,0,0" Spacing="0">
-                <Button Text="View A" />
-                <Button Text="View B" />
+                <Button Text="View A" Command="{Binding NavigateCommand}" CommandParameter="NavigationPage/ViewA"/>
+                <Button Text="View B" Command="{Binding NavigateCommand}" CommandParameter="NavigationPage/ViewB"/>
             </StackLayout>
         </ContentPage>
     </MasterDetailPage.Master>
