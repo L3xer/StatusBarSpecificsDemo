@@ -12,15 +12,16 @@ namespace StatusBarSpecificsDemo
         {
             InitializeComponent();
 
-            NavigationService.NavigateAsync("MenuPage/NavigationPage/ViewA");
+            NavigationService.NavigateAsync("MenuPage/MyNavigationPage/ViewA");
         }
 
         protected override void RegisterTypes()
         {
-            Container.RegisterTypeForNavigation<NavigationPage>();
+            Container.RegisterTypeForNavigation<MyNavigationPage>();
             Container.RegisterTypeForNavigation<MenuPage>();
             Container.RegisterTypeForNavigation<ViewA>();
             Container.RegisterTypeForNavigation<ViewB>();
+            Container.RegisterTypeForNavigation<MyNavigationPage>();
         }
     }
 }
