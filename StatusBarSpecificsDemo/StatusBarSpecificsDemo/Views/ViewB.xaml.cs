@@ -8,5 +8,14 @@ namespace StatusBarSpecificsDemo.Views
         {
             InitializeComponent();
         }
+
+        protected override void OnAppearing()
+        {
+            if (Parent is NavigationPage navPage) {
+                navPage.BarBackgroundColor = Color.FromHex("#3399ff");
+            }
+
+            base.OnAppearing();
+        }
     }
 }
