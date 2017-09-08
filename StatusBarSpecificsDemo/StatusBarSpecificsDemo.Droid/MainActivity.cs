@@ -18,6 +18,7 @@ namespace StatusBarSpecificsDemo.Droid
         {
             TabLayoutResource = Resource.Layout.tabs;
             ToolbarResource = Resource.Layout.toolbar;
+            Globals.Window = Window;
 
             base.OnCreate(bundle);
 
